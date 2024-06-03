@@ -31,7 +31,7 @@
   .fv {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
   }
   
   .resume {
@@ -176,13 +176,13 @@
 }
 
 .experiences__header {
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
   text-align: left;
   margin-bottom: 20px;
 }
 
 .experiences__company-header-durability {
-  color: var(--durability-text-color);
+  color: var(--primary-text-color);
   text-align: left;
   margin-bottom: 10px;
   font-size: 15px;
@@ -202,7 +202,7 @@
 }
 
 .experiences__company-project-role {
-  color: var(--durability-text-color);
+  color: var(--primary-text-color);
   text-align: left;
   margin-bottom: 10px;
   font-size: 15px;
@@ -228,9 +228,9 @@
 }
 
 .additional-info__education-header {
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .additional-info__education-university-durability {
@@ -255,7 +255,7 @@
 }
 
 .additional-info__languages-header {
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
   text-align: left;
   margin-bottom: 20px;
 }
